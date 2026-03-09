@@ -1,0 +1,33 @@
+td:nth-child(-n+5){
+	background-color: #f0e1cc;
+}
+td:nth-child(6){
+	background-color: #c4b7a5;
+}
+td:nth-child(7){
+	background-color: #a89274;
+}
+table {
+	border-color:#5c5750;
+	border-collapse: collapse;/*- Межі сусідніх клітинок «зливаються» в одну спільну лінію. - (border-collapse: separate)-Межі клітинок відображаються окремо, між ними є відступ*/
+      width: 700px; /* ширина всієї таблиці */
+      table-layout: fixed; /* робить усі колонки однаковими, - якщо явно задано width для таблиці. */
+
+}
+thead tr{
+	background:#8f785a;
+	color:white;
+}
+.event-row{
+	width:50px;
+	height:70px;
+}
+.week-row{
+	text-align:right;
+}
+.days-header{
+	text-align:left;
+}
+.inactive{
+	color:grey;
+}
